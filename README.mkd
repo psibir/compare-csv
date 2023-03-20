@@ -45,19 +45,15 @@ This tool is particularly useful for businesses that need to track changes to da
 To use this script, you can run the following command:
 
 ```
-python compare-csv.py <file1> <file2> <threshold> [--algorithm {fuzzywuzzy, levenshtein}] [--output-differences <differences_file>] [--output-matches <matches_file>]
+python comparecsv.py <file1> <file2> <threshold> [--algorithm {fuzzywuzzy, levenshtein}] [--output-differences <differences_file>] [--output-matches <matches_file>]
 ```
 
 The command line arguments are as follows:
 
+
 file1: The path to the first CSV file to compare.
-
 file2: The path to the second CSV file to compare.
-
-threshold: The minimum similarity score required for two rows to be considered a match. This should be an integer between 0 and 100.
-
+threshold: Optional. The minimum similarity score required for two rows to be considered a match. This should be an integer between 0 and 100.
 --algorithm: Optional. The comparison algorithm to use. This can be either "fuzzywuzzy" (the default) or "levenshtein".
-
 --output-differences: Optional. The path to a file to output the rows that appear in only one of the CSV files. If not provided, no file will be generated.
-
 --output-matches: Optional. The path to a file to output the rows that appear in both CSV files. If not provided, no file will be generated.
