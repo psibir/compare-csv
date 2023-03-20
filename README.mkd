@@ -1,7 +1,7 @@
 
 # compare-csv
 
-### A CSV Data Comparison and Matching Tool
+ *A CSV Data Comparison and Matching Tool*
 
 ## Description
 
