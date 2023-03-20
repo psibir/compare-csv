@@ -9,7 +9,7 @@ This script is designed to compare two CSV files and output the differences or m
 
 ## Business Use Case
 
-This tool is particularly useful for organizations that need to track changes to data over time. For example, if a company wants to keep track of changes to their inventory or sales data over time, they can use this tool to compare CSV files of the data from different time periods and see what has changed. They can then use the match CSV file to find any matching values between the two files, which can help identify trends or patterns.
+This tool is particularly useful for individuals and organizations that need to track changes to data over time. For example, if a company wants to keep track of changes to their inventory or sales data over time, they can use this tool to compare CSV files of the data from different time periods and see what has changed. They can then use the match CSV file to find any matching values between the two files, which can help identify trends or patterns.
 
 ## Installation
 1. Use the command `git clone`, then paste the link from this page, or copy the command and link from below:
