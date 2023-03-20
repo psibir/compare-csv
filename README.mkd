@@ -1,5 +1,7 @@
 
-# CSV Data Comparison and Matching Tool
+# compare-csv
+
+### A CSV Data Comparison and Matching Tool
 
 ## Description
 
@@ -51,9 +53,14 @@ python comparecsv.py <file1> <file2> <threshold> [--algorithm {fuzzywuzzy, leven
 The command line arguments are as follows:
 
 
-file1: The path to the first CSV file to compare.
-file2: The path to the second CSV file to compare.
-threshold: Optional. The minimum similarity score required for two rows to be considered a match. This should be an integer between 0 and 100.
---algorithm: Optional. The comparison algorithm to use. This can be either "fuzzywuzzy" (the default) or "levenshtein".
---output-differences: Optional. The path to a file to output the rows that appear in only one of the CSV files. If not provided, no file will be generated.
---output-matches: Optional. The path to a file to output the rows that appear in both CSV files. If not provided, no file will be generated.
+**file1**: The path to the first CSV file to compare.
+
+**file2**: The path to the second CSV file to compare.
+
+**threshold**: Optional. The minimum similarity score required for two rows to be considered a match. This should be an integer between 0 and 100.
+
+**--algorithm**: Optional. The comparison algorithm to use. This can be either "fuzzywuzzy" (the default) or "levenshtein".
+
+**--output-differences**: Optional. The path to a file to output the rows that appear in only one of the CSV files. If not provided, no file will be generated.
+
+**--output-matches**: Optional. The path to a file to output the rows that appear in both CSV files. If not provided, no file will be generated.
