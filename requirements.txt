@@ -1,0 +1,7 @@
+deepdiff==6.2.3
+fuzzywuzzy==0.18.0
+Levenshtein==0.20.9
+ordered-set==4.1.0
+orjson==3.8.7
+python-Levenshtein==0.20.9
+rapidfuzz==2.13.7
